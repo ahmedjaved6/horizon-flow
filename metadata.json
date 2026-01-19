@@ -1,5 +1,25 @@
 {
   "name": "Horizon Flow",
-  "description": "The inevitable workspace. Designed for clarity in a chaotic world.",
-  "requestFramePermissions": []
+  "short_name": "Horizon",
+  "description": "A calm, professional clinical workflow system",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F7F8FA",
+  "theme_color": "#F7F8FA",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
 }
